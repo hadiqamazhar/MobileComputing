@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnPlus, btnMinus,btnMultiply, btnDivide, btnClear, btnEqual, btnPercent, btnDot, btnAC;
     TextView input,output;
     String action= "";
-    boolean addition,subtraction,multiplication,division, percent;
-    float value1, value2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
